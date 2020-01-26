@@ -1,0 +1,83 @@
+#sectGustav {
+    background-image: url(../images/angel.jpg);
+    height: 140em;
+}
+
+.sectKomp{
+    width: 100%;
+    height: 70em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.half{
+height: 60%;
+width: 48%;
+margin: 1%;
+;
+}
+#leftHalf{
+    float: left;
+}
+#rightHalf{
+    float: right;
+}
+.komp{
+    height: 65%;
+    width: 70%;
+    background-color: rgba(0, 0, 0, .9);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    color: white;
+    padding: 2%;
+    margin-bottom: 2em;
+}
+.left{float: right;}
+.right{float: left;}
+.pGustav{
+    width: 95%;
+}
+
+#gustavSlideshow{
+    display: block;
+    width: 31%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#stopSlideGustav{
+    width: 31%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media screen and (max-width:768px){
+    
+.komp{
+    width: 100%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    }
+    #sectGustav{
+        height: 180em;
+    }
+
+    .half{
+        float: none;
+        width: 100%;
+        padding-bottom: 10%;
+        margin-bottom: 50%;
+        
+    }
+    #gustavSlideshow{
+        width: 80%;
+    }
+    #stopSlideGustav{
+        width: 80%;
+    }
+}
+
+
